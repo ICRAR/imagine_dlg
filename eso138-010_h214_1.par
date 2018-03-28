@@ -1,0 +1,33 @@
+# parameter file for one of the imagine observations:
+# the line below needs to be added to make the parameter file work
+[settings]
+
+target = eso138-010
+configuration = h214
+
+
+data_dir = /mnt/science1/imagine/rawdata_2017_03/
+process_dir = /scratch/rdodson/Imagine/OH/
+
+if=4
+project = C3157
+
+files=['2017-03-13_1015',
+	'2017-03-13_1137',
+	'2017-03-13_1211',
+	'2017-03-13_1245',
+	'2017-03-13_1319',
+	'2017-03-13_1352',
+	'2017-03-13_1426',
+	'2017-03-13_1501',
+	'2017-03-13_1534',
+	'2017-03-13_1608',
+	'2017-03-13_1642',
+	'2017-03-13_1716',
+	'2017-03-13_1750',
+	'2017-03-13_1826',
+	'2017-03-13_1905',
+	'2017-03-13_1940',
+	'2017-03-13_2013',
+	'2017-03-13_2047']
+
