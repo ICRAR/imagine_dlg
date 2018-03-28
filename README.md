@@ -5,6 +5,7 @@ This is a git repository for the drop components that can be used with the inclu
 
 DALiuGE is run with the graph richard.json
 master.py is run as so: 
+
   python2.7 $FULL_PATH/master.py eso138-010_h214_1.par 
   
 The FULL_PATH is required to find the other components
