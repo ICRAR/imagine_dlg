@@ -121,7 +121,7 @@ def get_input(target,project):
     if target == 'ngc3109':
         # NGC 3109  10h03m06.9s -26d09m34s G  403  0.001344
         phase_cal ='1015-314'
-        frequency = 1418.2
+        frequency = 1663.7
         alt_freq = 0000  # this is an alternative frequency
         vmin = 100
         nchan = 300
@@ -211,7 +211,7 @@ def get_input(target,project):
     if target == 'eso214-017':
         # ESO 214- G 017  10h40m18.7s -48d34m11s G 1052  0.003509 
         phase_cal ='1215-457'
-        frequency = 1415.2
+        frequency = 1660.2
         alt_freq = 0000  # this is an alternative frequency
         vmin = 1000
         nchan = 1100
